@@ -16,7 +16,7 @@ function TodoItem( {todo} ) {
   }
 
   return (
-    <div className={`flex border border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-white/50 duration-300 text-black ${todo.completed ? "bg-green" : "bg-red" }`} >
+    <div className={`flex border border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-white/50 duration-300 text-yellow ${todo.completed ? "bg-[green]" : "bg-[red]" }`} >
         <input type="checkbox"
              className='cursor-pointer'
              checked={todo.completed}
